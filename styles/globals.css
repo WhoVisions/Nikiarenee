@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-main: #050513;
+  --fg-main: #f9fafb;
+}
+
+html,
+body {
+  background-color: var(--bg-main);
+  color: var(--fg-main);
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+/* shared button style - use NeonButton component instead */
